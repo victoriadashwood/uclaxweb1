@@ -1,0 +1,18 @@
+body { background-color: #333; }
+.container {
+    font-family: Trebuchet, Helvetica, sans-serif;
+
+    background-color: #eee;
+    width: 700px;
+    padding: 20px;
+    margin: auto;
+}
+header {
+    padding: 20px;
+    background-color: lightgray;
+    margin-bottom: 20px;
+}
+.images {
+	text-align: center;
+}
+h1, p { margin: 0px; }

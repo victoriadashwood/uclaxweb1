@@ -1,0 +1,60 @@
+/*
+Body and Container D1v
+*/
+
+body { padding: 80px; background-color: maroon; }
+div.wrapper {
+  width: 800px;
+  background-color: gray;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*
+comments
+multiline comments
+more than one
+*/
+
+header { padding: 20px; background-color: teal;}
+nav { padding: 20px; background-color: goldenrod;}
+main { padding: 20px; background-color: white;}
+footer { padding: 20px; background-color: teal;}
+
+/* nav */
+nav { text-align: center;}
+a.menulink {
+background-color: purple;
+color: white;
+padding: 10px;
+text-decoration: none;
+border-radius: 5px;
+}
+a.menulink:hover {
+  background-color: black;
+}
+p {
+  background-color: orange;
+  padding: 20px;
+  margin: 0px;
+}
+p.alternate {
+  background-color: purple;
+}
+h1 {
+  background-color: orange;
+  border: solid 10px red;
+  padding: 20px;
+  margin: 20px;
+}
+
+h1#myID {
+  background-color: black;
+  color: white;
+}
+/* MAIN */
+
+main{
+  display: flex;
+}
+article { padding: 20px; background-color: pink; width: 65%}
+aside { padding: 20px; background-color: yellow; width: 35% }

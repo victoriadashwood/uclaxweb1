@@ -1,0 +1,66 @@
+/*
+Body and Container D1v
+*/
+
+body { padding: 80px; background-color: gray; }
+div.wrapper {
+  width: 800px;
+  background-color: purple;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*
+comments
+multiline comments
+more than one
+*/
+
+header { padding: 20px; background-color: teal;}
+nav { padding: 20px; background-color: blue;}
+main { padding: 20px; background-color: white;}
+footer { padding: 20px; background-color: teal;}
+
+/* nav */
+nav { text-align: center;}
+a.menulink {
+background-color: white;
+color: blue;
+padding: 10px;
+text-decoration: none;
+border-radius: 5px;
+}
+a.menulink:hover {
+  background-color: black;
+}
+p {
+  background-color: navy;
+  padding: 20px;
+  margin: 0px;
+}
+p.alternate {
+  background-color: white;
+}
+h1 {
+  background-color: white;
+  border: solid 10px teal;
+  padding: 20px;
+  margin: 20px;
+}
+
+h1#myID {
+  background-color: black;
+  color: white;
+}
+/* MAIN add class center image*/
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  margin: 20px;
+}
+main{
+  display: flex;
+}
+article { padding: 20px; background-color: pink; width: 85%}
+aside{ padding: 20px; background-color: purple; width: 15% }

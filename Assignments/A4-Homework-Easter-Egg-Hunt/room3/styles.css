@@ -1,0 +1,82 @@
+/*-------------------------------------
+| Root Elements
+-------------------------------------*/
+body {
+	background-color: #333;
+	font-family: helvetica, sans-serif;
+	text-align: center;
+	margin: 20px;
+}
+body.puzzle1 { background-color: #4e1a1a; }
+body.puzzle2 { background-color: #1a4b4e; }
+body.puzzle3 { background-color: #2c1a4e; }
+
+.wrapper {
+	background-color: #fff;
+	width: 90%;
+	max-width: 650px;
+	margin: auto;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+/*-------------------------------------
+| Header and Footer
+-------------------------------------*/
+header, footer {
+	margin: 0px;
+	font-size: 50px;
+	color: #fff;
+	text-transform: uppercase;
+}
+header { padding: 70px 0px; font-size: 50px; }
+footer { padding: 50px 0px; font-size: 30px; }
+
+
+body.puzzle1 header, body.puzzle1 footer { background-color: #af2828; }
+body.puzzle2 header, body.puzzle2 footer { background-color: #052f31; }
+body.puzzle3 header, body.puzzle3 footer { background-color: #12052b; }
+
+/*-------------------------------------
+| Nav
+-------------------------------------*/
+nav { padding: 30px; }
+nav a {
+	display: inline-block;
+	width: 150px;
+	line-height: 50px;
+	color: #000;
+
+	background-color: #eee;
+
+	border: solid 1px #d6d6d6;
+	border-radius: 5px;
+
+	text-decoration: none;
+	text-transform: uppercase;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+0,efefef+100&0+0,1+100 */
+	background: -moz-linear-gradient(top,  rgba(254,255,255,0) 0%, rgba(239,239,239,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(254,255,255,0) 0%,rgba(239,239,239,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(254,255,255,0) 0%,rgba(239,239,239,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00feffff', endColorstr='#efefef',GradientType=0 ); /* IE6-9 */
+
+
+}
+nav a.chosen {
+	background-color: #d9eefd;
+	/*border: solid 1px #335365;*/
+	/*box-shadow: 0px 2px 3px rgba(0,0,0,.3);*/
+}
+nav a:hover {
+	/*background-color: #eee;*/
+	background-color: #fafdd9;
+}
+
+/*-------------------------------------
+| Eggs
+-------------------------------------*/
+.eggs {
+	margin: 50px 0px;
+}
+
